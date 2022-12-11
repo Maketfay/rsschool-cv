@@ -6,6 +6,7 @@
     email: staszhelubovski@gmail.com
     Phone: +375292994009
 *I teach frontend and backend.*
+
 ## Skils:
 * C#
 * OOP
@@ -20,3 +21,9 @@ var countSquares = function(cuts){
 return (Math.pow(cuts+1, 3)-Math.pow(cuts-1, 3))
 }
 ```
+## Languges:
+* English - Intermediate/Upper-intermediate (according to the online test at [EF-SET](www.efset.org))
+![](https://ic.wampi.ru/2022/12/11/SNIMOK193b085b1c27506f.png)
+* Russian - Native 
+* Polish - Upper-intermediate 
+* French - Basic
