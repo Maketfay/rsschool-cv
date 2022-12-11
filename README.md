@@ -1,1 +1,1 @@
-# rsschool-cv
+https://Maketfay.github.io/rsschool-cv/cv
