@@ -6,6 +6,38 @@ html {
   scroll-behavior: smooth; 
 }
 
+body.dark {
+  background-color: #3d3939;
+}
+body.light {
+  background-color: #dccecd;
+}
+
+body.dark .header {
+  background-color: #3d3939;
+}
+body.light .section-profile-logo:hover {
+  box-shadow: 4px 4px 12px black;
+}
+body.light p {
+  color: #e74c3c;
+}
+body.light h1 {
+  color: #e74c3c;
+}
+body.light h3 {
+  color: #e74c3c;
+}
+body.light h2 {
+  color: #e74c3c;
+}
+body.light a {
+  color: #d5584a;
+}
+body.light a::after {
+  background-color: white;
+}
+
 body {
   display: flex;
   flex-direction: column;
@@ -28,8 +60,21 @@ body {
   min-height: 50px;
 }
 
-.header {
+.header .dark {
   background-color: #222626;
+}
+
+.header .light {
+  background-color: #b1eaea;
+}
+
+.header.sticky {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgb(156, 156, 156) !important;
+  z-index: 40;
 }
 
 .nav-list {
@@ -174,25 +219,13 @@ body {
   border-radius: 50%;
   box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
   filter: grayscale(0.2) brightness(1.05);
-  transition: .3s;
+  transition: all .3s ease-in;
 }
 
 .section-profile-logo:hover {
-  opacity: 1;
-  animation-name: increase;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
+  transform: scale(1.07);
 }
 
-@keyframes increase {
-  0%{
-    transform: scale(1);
-  }
-  100%
-  {
-    transform: scale(1.2);
-  }
-}
 
 .section-profile-logo:hover {
   filter: none;
